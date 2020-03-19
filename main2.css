@@ -10,8 +10,8 @@ nav{
     z-index: 1;
 }
 .navTitle{
-    font-size: 30px;
-    height: 70px;
+    font-size: 100px;
+    height: auto;
     padding-top: 15px;
     padding-bottom: 20px;
     margin-block-end: auto;

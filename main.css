@@ -52,7 +52,7 @@ nav{
     animation: color-change 5s infinite;
 }
 body{
-    background: url(../Portfolio/assets/backgroundSlow.gif) no-repeat center center fixed; 
+    background: url(assets/backgroundSlow.gif) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

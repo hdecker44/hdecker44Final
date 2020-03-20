@@ -1,6 +1,30 @@
-nav{
+.navbar{
+    position: fixed;
+    width: 100%;
+    border-bottom: white 2px solid;
+    z-index: 1;
+}
+.navbar-dark .navbar-brand{
+    color: white;
+    -webkit-animation: color-change 5s infinite;
+    -moz-animation: color-change 5s infinite;
+    -o-animation: color-change 5s infinite;
+    -ms-animation: color-change 5s infinite;
+    animation: color-change 5s infinite;
+}
+.bg-dark{
+    background-color: rgb(47,47,47) !important;
+    -webkit-animation: color-change 3s infinite;
+    -moz-animation: color-change 3s infinite;
+    -o-animation: color-change 3s infinite;
+    -ms-animation: color-change 3s infinite;
+    animation: color-change 3s infinite;
+}
+.nav-link{
+    float: left;
+}
+/* nav{
     background-color: rgb(47,47,47);
-    height: 70px;
     display: flex;
     justify-content: space-between;
     color: white;
@@ -24,34 +48,29 @@ nav{
     -ms-animation: color-change 5s infinite;
     animation: color-change 5s infinite;
 }
+
 .navBar {
     height: auto;
     padding-bottom: 20px;
     margin-block-end: auto;
-}
+}*/
 .navBar ul{
     float: right;
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 0;
     height: 70px;
     cursor: pointer;
 }
-.navBar li{
+nav li{
     list-style: none;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    width: 100px;
-    text-align: center;
-
 }
-.navBar li:hover{
+nav li a:hover{
     transform: scale(1.2);
-    -webkit-animation: color-change 5s infinite;
-    -moz-animation: color-change 5s infinite;
-    -o-animation: color-change 5s infinite;
-    -ms-animation: color-change 5s infinite;
-    animation: color-change 5s infinite;
+    -webkit-animation: color-change 3s infinite;
+    -moz-animation: color-change 3s infinite;
+    -o-animation: color-change 3s infinite;
+    -ms-animation: color-change 3s infinite;
+    animation: color-change 3s infinite;
 }
 body{
     background: url("assets/backgroundSlow.gif") no-repeat center center fixed; 

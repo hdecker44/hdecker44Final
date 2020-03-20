@@ -13,33 +13,88 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css">
     <script src="javaMain.js"></script>
 </head>
-<nav>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Henry Decker</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#education">Education</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#experience">Experience</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#info">Info</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="assets/resumePDF.pdf" target="blank">Resume</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- <nav>
     <div class = "navTitle">
         <h1>Henry Decker</h1>
     </div>
     <div class = "navBar">
         <ul>
-            <li>About</li>
-            <li>Education</li>
-            <li>Skills</li>
-            <li>Experience</li>
-            <li>Projects</li>
-            <li>Info</li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#education">Education</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#experience">Experience</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#info">Info</a>
+            </li>
+            
+            <li class="nav-item">
+                <a class="nav-link" href="assets/resumePDF.pdf" target="blank">Resume</a>
+            </li>
         </ul>
     </div>
-</nav>
+</nav> -->
 <body>
     <section class = "title">
         <h2>Henry Decker</h2>
         <p>Efficiency Through Innovation</p>
     </section>
-    <section class = "about">
+    <section class = "about" id = "about">
         <div>
             <h2>Welcome</h2>
             <p>I am Henry Decker.  I am a .NET Developer with a background in Informatics and business looking to challenge myself more than I did the day before.  I pride myself on my ability to always find a way to improve something, code especially.  I am a student at Eleven Fifty Academy currently enrolled in the immersive twelve week .NET development course.  I am also a student at Indiana University where I am finishing my degree in Informatics.  I've explored multiple areas of the tech industry want to use my skills to improve business operations wherever that may be.  I love sports and enjoy breaking down statistics and creating my own analysis in my free time.</p>
         </div>
     </section>
-    <h1 class = "sectionHeader">Education</h1>
+    <h1 class = "sectionHeader" id = "education">Education</h1>
     <section class = "education">
         <div class = "elevenFifty">
             <div class = "efHovered">
@@ -62,7 +117,7 @@
             </div>
         </div>  
     </section>
-    <h1 class = "sectionHeader">Skills</h1>
+    <h1 class = "sectionHeader" id = "skills">Skills</h1>
     <section class = "skills">
         <div class="tab">
             <button class="tablinks" onclick="openCity(event, 'C')" id = "defaultOpen">C#</button>
@@ -117,7 +172,7 @@
             </div>
         </div>
     </section>
-    <h1 class = "sectionHeader">Experience</h1>
+    <h1 class = "sectionHeader" id = "experience">Experience</h1>
     <section class = "experience">
         <div class = "insigneo">
             <div>
@@ -150,9 +205,9 @@
             </div>
         </div>
     </section>
-    <h1 class = "sectionHeader">Projects</h1>
+    <h1 class = "sectionHeader" id = "projects">Projects</h1>
     <section class = "projects">
-        <a href = "https://github.com/hdecker44/AllFiles">
+        <a href = "https://github.com/hdecker44/AnimalGuessingGame">
             <div class = "projectWhole">
                 <div class = "projectImage">
                     <img src = "assets/animalGame.jpg">
@@ -204,7 +259,7 @@
         </a>
 
     </section>
-    <footer>
+    <footer id = "info">
         <div>
             <p>henryjdecker@gmail.com</p>
         </div>

@@ -362,8 +362,10 @@ a:hover{
 }
 .projectWhole{
     width: 300px;
+    min-width: 100px;
     border: 1px rgb(4,116,186) solid;
     height: 350px;
+    min-height: 200px;
     margin: 15px;
     transition: .2s;
 }

@@ -349,7 +349,7 @@ body{
     transition: transform .2s;
 }
 .projects a{
-    margin: 15px;
+    margin: 10px;
     text-decoration: none;
 }
 .projectWhole{

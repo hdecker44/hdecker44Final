@@ -167,7 +167,7 @@ body{
     min-height: 330px;
     width: 50%;
     border: white solid 10px;
-    margin: 15px;
+    margin: 5px;
     text-align: center;
     background-color: rgb(47,47,47);
     transition: transform .2s;
@@ -190,7 +190,7 @@ body{
     font-size: 15px;
     width: 50%;
     border: white solid 10px;
-    margin: 15px;
+    margin: 5px;
     text-align: center;
     background-color: rgb(47,47,47);
     transition: transform .2s;
@@ -337,6 +337,7 @@ body{
     display: flex;
     justify-content: space-evenly;
     margin-top: 0;
+    text-decoration: none;
 }
 .projects{
     background-color: rgb(47,47,47);
@@ -352,6 +353,8 @@ body{
     width: 250px;
     min-width: 150px;
     margin: 15px;
+    text-decoration: none;
+
 }
 .projectWhole{
     width: 100%;
@@ -369,6 +372,7 @@ body{
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
+
 }
 .projectName{
     height: 20%;

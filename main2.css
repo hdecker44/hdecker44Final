@@ -349,18 +349,17 @@ body{
     transition: transform .2s;
 }
 .projects a{
-    width: 250px;
-    min-width: 150px;
     margin: 15px;
     text-decoration: none;
-    float: left;
-
 }
 .projectWhole{
-    width: 100%;
+    display: inline-block;
+    width: 250px;
+    min-width: 150px;
     border: 1px rgb(4,116,186) solid;
     height: 350px;
     transition: .2s;
+    margin: 10px;
 }
 .projectImage img{
     height: 280px;

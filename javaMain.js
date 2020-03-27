@@ -14,3 +14,10 @@ function openCity(evt, cityName) {
 
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
+
+$(function(){ 
+  var navMain = $("#nav-main");
+  navMain.on("click", "a", null, function () {
+      navMain.collapse('hide');
+  });
+});

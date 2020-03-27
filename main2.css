@@ -23,37 +23,6 @@
 .nav-link{
     float: left;
 }
-/* nav{
-    background-color: rgb(47,47,47);
-    display: flex;
-    justify-content: space-between;
-    color: white;
-    position: fixed;
-    width: 100%;
-    border-bottom: white 2px solid;
-    z-index: 1;
-    overflow: hidden;
-}
-.navTitle{
-    font-size: 100px;
-    height: auto;
-    max-height: 70px;
-    padding-top: 15px;
-    padding-bottom: 20px;
-    margin-block-end: auto;
-    padding-left: 15px;
-    -webkit-animation: color-change 5s infinite;
-    -moz-animation: color-change 5s infinite;
-    -o-animation: color-change 5s infinite;
-    -ms-animation: color-change 5s infinite;
-    animation: color-change 5s infinite;
-}
-
-.navBar {
-    height: auto;
-    padding-bottom: 20px;
-    margin-block-end: auto;
-}*/
 .navBar ul{
     float: right;
     display: flex;
